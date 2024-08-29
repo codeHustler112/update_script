@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo apt update > /dev/null 2>&1
+echo "THE EXIT CODE FOR UPDATE: $?"
+
+sudo apt upgrade > /dev/null 2>&1
+echo "THE EXIT CODE FOR UPGRADE: $?"
+
+
+sudo apt autoremove > /dev/null 2>&1
+echo "THE EXIT CODE FOR AUTOREMOVE: $?"
+
+
+sudo apt autoclean > /dev/null 2>&1
+echo "THE EXIT CODE FOR AUTOCLEAN: $?"
+
